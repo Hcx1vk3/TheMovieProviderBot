@@ -98,7 +98,7 @@ QUALITIES = ["360P", "", "480P", "", "720P", "", "1080P", "", "1440P", "", "2160
 
 # Online Stream and Download
 NO_PORT = bool(environ.get('NO_PORT', False))
-APP_NAME = “https://ragnardiscussion-580f39a0584e.herokuapp.com/“
+APP_NAME = "https://ragnardiscussion-580f39a0584e.herokuapp.com/"
 if 'DYNO' in environ:
     ON_HEROKU = True
     APP_NAME = environ.get('APP_NAME')
